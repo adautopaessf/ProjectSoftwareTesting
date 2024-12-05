@@ -13,7 +13,7 @@ import {
     FormLabel,
     Input,
     Box,
-    Select // Importa Select do Chakra UI
+    Seletc // Importa Select do Charka UI
 } from "@chakra-ui/react";
 import ReactInputMask from "react-input-mask";
 
