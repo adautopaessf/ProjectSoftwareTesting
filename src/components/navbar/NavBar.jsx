@@ -13,6 +13,7 @@ function NavBar() {
           <Nav.Link as={Link} to="/agendamento">AGENDAMENTO</Nav.Link>
           <Nav.Link as={Link} to="/cadastrarveiculo">VEÍCULOS</Nav.Link>
           <Nav.Link as={Link} to="/checkindiagnostico">CHECKIN</Nav.Link>
+          <Nav.Link as={Link} to="/Faturamento">FATURAMENTO</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
