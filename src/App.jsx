@@ -7,6 +7,7 @@ import CadVeiculoApp from "./components/veiculo/CadVeiculoApp.jsx";
 import { ChakraProvider } from "@chakra-ui/react";
 import NavBar from "./components/navbar/NavBar.jsx";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import AgendamentoServico from "./components/agendamento/AgendamentoServico.jsx";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                     <Route path="/checkindiagnostico" element={<CheckInApp />}/>
                     <Route path="/cadastrarcliente" element={<CadClienteApp />} />
                     <Route path="/cadastrarveiculo" element={<CadVeiculoApp />} />
+                    <Route path="/agendamento" element={<AgendamentoServico />} />
                 </Routes>
             </BrowserRouter>
         </ChakraProvider>
