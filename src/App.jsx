@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./app/home/home.jsx";
+import CheckInApp from "./components/Checkin/CheckInApp.jsx";
 import CadClienteApp from "./components/cliente/CadClienteApp.jsx";
 import CadVeiculoApp from "./components/veiculo/CadVeiculoApp.jsx";
 import { ChakraProvider } from "@chakra-ui/react";
@@ -14,6 +15,7 @@ function App() {
             <NavBar />
                 <Routes>
                     <Route path="/" element={<Home />} />
+                    <Route path="/checkindiagnostico" element={<CheckInApp />}/>
                     <Route path="/cadastrarcliente" element={<CadClienteApp />} />
                     <Route path="/cadastrarveiculo" element={<CadVeiculoApp />} />
                 </Routes>

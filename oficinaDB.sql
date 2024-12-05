@@ -8,3 +8,15 @@ ALTER TABLE peca (
     NivelMinimo INT,
     DataVencimento DATE
 );
+
+CREATE TABLE checkin_diagnostico (
+    CheckinID INT AUTO_INCREMENT PRIMARY KEY,
+    ClienteID INT NOT NULL,
+    NomeCliente VARCHAR(100),
+    VeiculoDescricao VARCHAR(255) NOT NULL,
+    Sintomas TEXT NOT NULL,
+    Diagnostico TEXT,
+    Observacoes TEXT,
+    DataCheckin DATETIME DEFAULT CURRENT_TIMESTAMP,
+    DataConclusao DATETIME                   
+);

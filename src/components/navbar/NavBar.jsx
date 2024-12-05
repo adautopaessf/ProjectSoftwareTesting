@@ -11,6 +11,7 @@ function NavBar() {
         <Nav className="me-auto">
           <Nav.Link as={Link} to="/cadastrarcliente">CLIENTES</Nav.Link>
           <Nav.Link as={Link} to="/cadastrarveiculo">VEÍCULOS</Nav.Link>
+          <Nav.Link as={Link} to="/checkindiagnostico">CHECKIN</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
